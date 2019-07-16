@@ -1,4 +1,4 @@
-# Azure.B2C.Samples.AzureB2CWithGroups
+# Azure.B2C.Samples.GroupAuthorization
 
 In this project, we demonstrate the ability to verify a user's existence against an Active Directory group from within an Azure Active Directory B2C tenant. To do this, we use a custom authentication service that implements the `Microsoft.AspNetCore.Authorization.IAuthorizationService` interface and uses the [Azure AD Graph API](https://docs.microsoft.com/en-us/previous-versions/azure/ad/graph/api/api-catalog) to access and confirm our user is a member of the specified group. 
 
