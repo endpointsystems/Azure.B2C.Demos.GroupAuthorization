@@ -34,7 +34,7 @@ public void ConfigureServices(IServiceCollection services)
 
 ## For the nitty-gritty
 
-All of the dirty work is done in the `GroupAuthService` authorization service. 
+All of the dirty work is done in the [GroupAuthService](https://github.com/endpointsystems/Azure.B2C.Demos.GroupAuthorization/blob/master/AzureB2CWithGroups/Services/GroupAuthService.cs) authorization service. 
 
 Enjoy!
 
