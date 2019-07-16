@@ -1,0 +1,16 @@
+@using Microsoft.Azure.ActiveDirectory.GraphClient
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h2>User Info</h2>
+
+<p>authentication type: @User.Identity.AuthenticationType</p>
+<ul>
+@foreach (var claim in User.Claims)
+{
+    <li><em>@claim.Type: </em>@claim.Value</li>
+}
+</ul>
