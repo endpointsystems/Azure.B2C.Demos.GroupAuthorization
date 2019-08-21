@@ -1,3 +1,5 @@
+Vote here to get group memberships added to Azure AD B2C Claims: https://feedback.azure.com/forums/169401-azure-active-directory/suggestions/10123836-get-user-membership-groups-in-the-claims-with-ad-b
+
 # Azure.B2C.Demos.GroupAuthorization
 
 In this project, we demonstrate the ability to verify a user's existence against an Active Directory group from within an Azure Active Directory B2C tenant. To do this, we use a custom authentication service that implements the `Microsoft.AspNetCore.Authorization.IAuthorizationService` interface and uses the [Azure AD Graph API](https://docs.microsoft.com/en-us/previous-versions/azure/ad/graph/api/api-catalog) to access and confirm our user is a member of the specified group. 
